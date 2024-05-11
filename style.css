@@ -4,23 +4,21 @@
     font-family: sans-serif;  
     font-weight: 400;
   }
-#navbarMonstera{
-    /* border: solid black; */
+  #navbarMonstera{ 
     display: flex;
     align-items: center;
-   justify-content: space-evenly;
-}
-  #navFirst{
-    /* border: solid orangered; */
-  
- }
+    justify-content: space-evenly;
+  }
  #navMid {
-  /* border: solid black; */
+  
   display: flex;
   align-items: center;
 
  }
- h4{
+  #navMid h4:hover{
+  text-decoration: underline;
+ }
+  #navMid h4{
   align-items: center;
   margin: 60px;
   font-size: 20px;
@@ -28,37 +26,28 @@
   justify-content: space-evenly;
     
  }
-
  #navEnd{
-    /* border: solid black; */
-    justify-content: space-between;
- }
- #navEnd{
-    /* border: solid green; */
-    display: flex;
-    align-items: center;
-    
+   display: flex;
    }
    #navEnd img{
-      justify-content: space-around;
       margin: 25px;
    }
     #midWholePart1{
-   /* border: solid rgb(23,78,47); */
+   margin-bottom:300px;
    
  }
  #midWholePart11{
-  /* border: solid black; */
   justify-content: center;
   align-items:center;
   margin-left: 50px;
+  margin-top: 70px;
   
  }
  #monstera{
    display: flex;
    font-size: 130px;
    font-weight: 700;
-   margin-top: 150px;
+   margin-top: 180px;
    margin-left: 4px;
  }
   li{
@@ -67,15 +56,13 @@
    margin-left: 30px;
  }
  #midWholePart12{
-  /* border: solid red; */
   display: flex;
   margin-top: px;
   margin-left: 50px;
   padding-top: 20px;
-  /* background-color: rgb(64, 189, 41); */
+  
  }
  #midWholePart121{
-  /* border: solid blue; */
   border-radius: 40px;
   display: flex;
   justify-content: center;
@@ -83,19 +70,55 @@
   background-color: green;
   color: white;
   padding-left: 30px; 
+  margin-top: 50px;
 
  }
- #midWholePart122{
-  /* border: solid rgb(64, 189, 41); */
+
+ 
+  #midWholePart13{
+  font-size: small;
   display: flex;
-  display: inline;
+  margin-top: 100px;
+  height: 100px;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  margin-right: 640px;
+ 
+
+ }
+ .midWholePart13Parts{
+  display: flex;
+  height: 100px;
+ }
+ .text{
+  margin-left: 100px;
+  margin-top: 40px;
+}
+ #feeding{
+  display: flex;
+  height: 60px;
+  width: 70px;
+ }
+ #light{
+  height: 50px;
+  position: absolute;
+ margin-right: -50px;
+ width: 100px;
+ }
+ #care{
+  position: absolute;
+  display: flex;
+  height: 50px;
+  width: 100px;
+ }
+  #midWholePart13 img{
+    position: absolute;
+  }
+ #midWholePart13 h4{
+  font-weight: 700;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 20px;
  }
  
-  #imgMain{
-    /* border: solid yellow; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 500px;
-    padding-bottom: 500px;
-  }
